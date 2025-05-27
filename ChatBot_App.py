@@ -8,7 +8,7 @@ import io
 import time
 
 # ==================== Custom CSS for Attractive UI ====================
-st.set_page_config(page_title="⚡ DISCOM Chatbot", layout="centered")
+st.set_page_config(page_title="⚡ MP DISCOM GIS AI Chatbot", layout="centered")
 st.markdown("""
 <style>
 @import url('https://fonts.googleapis.com/css2?family=Nunito:wght@400;700&family=Montserrat:wght@700&display=swap');
@@ -184,7 +184,7 @@ st.markdown("""
     <img src="https://cdn-icons-png.flaticon.com/512/4712/4712035.png" alt="Chatbot" />
     <div>
         <div class="chatbot-title">DISCOM Chatbot</div>
-        <div class="chatbot-desc">Lisa – Your AI Power Assistant</div>
+        <div class="chatbot-desc">LISA - (Location Based Intelligent Support Assistant</div>
     </div>
 </div>
 """, unsafe_allow_html=True)
@@ -217,7 +217,7 @@ def generate_speech_html(text):
 
 # ==================== Session State ====================
 if "chat_history" not in st.session_state:
-    st.session_state.chat_history = [("bot", "👋 Ask me anything about electricity issues!")]
+    st.session_state.chat_history = [("bot", "👋 Ask me anything about GIS Related Quetions!")]
 if "bot_typing" not in st.session_state:
     st.session_state.bot_typing = False
 

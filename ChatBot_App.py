@@ -183,8 +183,8 @@ st.markdown("""
 <div class="header-bar">
     <img src="https://cdn-icons-png.flaticon.com/512/4712/4712035.png" alt="Chatbot" />
     <div>
-        <div class="chatbot-title">DISCOM Chatbot</div>
-        <div class="chatbot-desc">LISA - (Location Based Intelligent Support Assistant</div>
+        <div class="chatbot-title">MP DISCOM GIS AI Chatbot</div>
+        <div class="chatbot-desc">LISA - (Location Based Intelligent Support Assistant)</div>
     </div>
 </div>
 """, unsafe_allow_html=True)
